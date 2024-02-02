@@ -1,0 +1,28 @@
+﻿@model List<MeyawoPortfolio.Models.TblEducation>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/AdminLayout/_Layout.cshtml";
+}
+
+<h2>Eğitim Hayatım</h2>
+
+<table class="table table-bordered">
+    
+    <tr>
+        <th>ID</th>
+        <th>Üniversite</th>
+        <th>Okuduğu Bölüm</th>
+        <th>Mezuniyet Yılı</th>
+    </tr>
+    @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.EducationID</td>
+                    <td>@item.School</td>
+                    <td>@item.Area</td>
+                    <td>@item.GraduationYear</td>
+
+                </tr>
+            }
+
+</table>
