@@ -11,8 +11,10 @@ namespace MeyawoPortfolio.Controllers
     {
         DbMyPortfolioEntities db = new DbMyPortfolioEntities();
         public ActionResult Index()
-        { 
-         
+        {
+            ViewBag.categoryCount = db.TblCategory.Count();
+            ViewBag.projectCount = db.TblProject.Count();
+            ViewBag.messageCount = db.TblCantact.Count();
 
             return View();
         }

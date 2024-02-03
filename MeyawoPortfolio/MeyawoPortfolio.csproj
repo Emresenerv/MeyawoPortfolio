@@ -141,6 +141,7 @@
     <Compile Include="Controllers\ServiceController.cs" />
     <Compile Include="Controllers\SocialController.cs" />
     <Compile Include="Controllers\StatisticController.cs" />
+    <Compile Include="Controllers\TestimonialController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -286,9 +287,17 @@
     <Content Include="Templates\sidebar-09\css\bootstrap\utilities\_stretched-link.css" />
     <Content Include="Templates\sidebar-09\css\bootstrap\_media.css" />
     <Content Include="Templates\sidebar-09\css\style.css" />
+    <Content Include="Templates\sidebar-09\images\2219822.png" />
+    <Content Include="Templates\sidebar-09\images\6840478.png" />
+    <Content Include="Templates\sidebar-09\images\aa.png" />
+    <Content Include="Templates\sidebar-09\images\bb.png" />
+    <Content Include="Templates\sidebar-09\images\best-to-do-apps-cover.png" />
     <Content Include="Templates\sidebar-09\images\bg_1.jpg" />
     <Content Include="Templates\sidebar-09\images\EMRE %282%29.jpeg" />
     <Content Include="Templates\sidebar-09\images\logo.jpg" />
+    <Content Include="Templates\sidebar-09\images\meyawo.png" />
+    <Content Include="Templates\sidebar-09\images\ogrenciNot.png" />
+    <Content Include="Templates\sidebar-09\images\software.jpg" />
     <Content Include="Templates\sidebar-09\index.html" />
     <Content Include="Templates\sidebar-09\js\bootstrap.min.js" />
     <Content Include="Templates\sidebar-09\js\jquery.min.js" />
@@ -550,6 +559,7 @@
     <Content Include="Views\Default\ContactPartial.cshtml" />
     <Content Include="Views\Default\FooterPartial.cshtml" />
     <Content Include="Views\Default\ScriptPartial.cshtml" />
+    <Content Include="Views\Testimonial\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
